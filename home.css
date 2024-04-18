@@ -312,4 +312,14 @@ div.explore a.dest h2 {
     left: -5pc; 
 }
 
+a.nav-link-ltr:hover::before {
+    width: 0px;
+  }
+
+
+  a.nav-link-ltr_2:hover::before {
+    width: 0;
+  }
+
+
 }
