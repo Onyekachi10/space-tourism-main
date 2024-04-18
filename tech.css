@@ -1,0 +1,173 @@
+body {
+    background: 
+    url("./assets/technology/background-technology-desktop.jpg")no-repeat;
+    background-size: cover;
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+ul.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10pc;
+}
+
+li.list-item {
+    padding-bottom: 5pc; 
+}
+
+a.list-link {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 30px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+a.list-link:hover {
+    background: white;
+    color: black;
+}
+
+a.list-link.active {
+    background: white;
+    color: black;
+}
+
+span.launch {
+   position: relative;
+   bottom: 2pc;
+}
+
+/* CONTENT SECTION */
+
+div.lift  {
+  position: relative;
+  bottom: 10pc;
+  left: 10pc;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: 60%;
+    font-weight: 300;
+    position: relative;
+    bottom: 3pc;
+    margin-top: 2pc;
+}
+
+h1.space {
+    text-transform: capitalize;
+    position: relative;
+    bottom: 5pc;
+}
+
+p.space-para {
+    position: relative;
+    bottom: 6pc;
+    font-weight: 200;
+}
+
+
+div.space-img {
+    width: 600px;
+    height: 600px;
+}
+img#image {
+    position: relative;
+    left: 5pc;
+}
+@media screen and (max-width:1024px) and (min-width:800px) {
+ 
+    a.list-link {
+        font-size: 20px;     
+        position: relative;
+        right: 3pc;
+    }
+
+    div.lift  {
+        bottom: 9pc;
+        left: 3pc;      
+      }
+
+
+      div.space-img {
+        width: 500px;
+        
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:500px) {
+    a.list-link {
+        font-size: 20px;
+        position: relative;
+        right: 1.5pc;
+    }
+
+    div.lift {
+        bottom: 9pc;
+        left: 2pc;
+    }
+ 
+    h2 {
+        left :2pc;
+    }
+
+    img#image {
+        width: 400px;
+        height: 600px;
+        position: relative;
+        left: 10pc;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:320px) {
+    body {
+        background: 
+        url("./assets/technology/background-technology-mobile.jpg")no-repeat;
+        background-size: cover;
+        height: 200vh;
+        overflow-x: hidden;
+    }
+
+    span.launch {
+        bottom: 8pc;
+        left: 9pc;
+        font-size: 17px;
+    }
+
+    ul.list {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        left: 7pc;
+    }
+    
+    li.list-item {
+        padding-right: 1pc; 
+    }
+    
+    div.lift {
+        top: 5pc;
+        left: 0pc;
+        text-align: end;
+    }
+ 
+    h2 {
+       left: 3pc;
+    }
+
+    img#image {
+        width: 400px;
+        height: 600px;
+        left: 0;
+        top: 40pc;
+    }
+}

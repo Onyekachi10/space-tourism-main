@@ -1,0 +1,130 @@
+body {
+    background-image: url("./assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    height: 200vh;
+}
+
+span.crew {
+    position: relative;
+    bottom: 8pc;
+}
+ 
+h1 {
+   text-transform: capitalize;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: 60%;
+    font-weight: 300;
+    position: relative;     
+    top: 2pc;
+    margin-top: 2pc;
+}
+
+
+h2.mis {
+    top: -1pc;
+   
+}
+
+p.crew-para {
+    font-weight: 300;
+    opacity: 50%;
+}
+
+p.mis {
+    opacity: 70%;
+}
+
+/* CREW PICTURE */
+
+div.crew_img {
+    height: 600px;
+}
+
+/* DOT TO MOVE TO THE NEXT */
+span.dot {
+    color: rgb(241, 235, 235);
+    font-size: 100px;
+    cursor: pointer;
+}
+
+span.dot.active {
+    color: rgb(56, 54, 54);
+}
+
+
+
+/* LAPTOP SECTION */
+@media screen and (max-width:1024px) and (min-width:800px){
+    div.content.sec {
+        position: relative;
+        bottom: 5pc;
+       }
+}
+
+
+@media screen and (max-width:767px) and (min-width:400px)  {
+    h2 {
+        top: -2pc;
+        left: 2pc;
+    }
+
+    span.dot {
+        position: relative;
+        top: -1pc;
+    }
+
+    p.crew-para {
+        font-size: 20px;
+    }
+
+    img#image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:320px) {
+    body {
+        background-image: url("./assets/crew/background-crew-mobile.jpg");
+        background-size: cover;
+        height: 186vh;
+    }
+    
+    
+span.crew{
+    font-size: 17px;
+    left: 10pc;
+}
+
+h1 {
+	font-size: 81px;
+	text-align: center;
+}
+
+    h2 {
+        top: -7pc;
+        font-size: 20px;
+        left: 11pc;
+    }
+
+    span.dot {
+        position: relative;
+        top: -8pc;
+        left: 8pc;
+    }
+
+    p.crew-para {
+        font-size: 20px;
+    }
+
+    img#image {
+        width: 600px;
+        position: relative;
+        top: 35pc;
+        right: 5pc;
+    }
+}
