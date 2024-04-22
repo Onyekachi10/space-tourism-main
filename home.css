@@ -8,7 +8,7 @@ body {
     background: 
     url("./assets/home/background-home-desktop.jpg")no-repeat;
     background-size: cover;
-    height: 148vh;
+    height: 100vh;
     overflow-x: hidden;
     
 }
